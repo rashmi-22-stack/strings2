@@ -10,7 +10,7 @@ player_2 = 'Marco van Basten'
 goal_0 = 32
 goal_1 = 54
 
-scorers = player_1 +" " + str(goal_0),  player_2 + " "+ str(goal_1)
+scorers = player_1 +' ' + str(goal_0) + ',' + ' ' +  player_2 + " "+ str(goal_1)
 print(scorers)
 
 report = f'{player_1} scored in the  {goal_0}nd minute\n{player_2} scored in the {goal_1}th minute.'
@@ -29,7 +29,7 @@ print(last_name_len)
 name_short = first_name[0]+ "."+" "+last_name
 print(name_short)
 
-chant = (first_name + '!')*len(first_name)
+chant = (first_name + '! ')*len(first_name)
 print(chant)
 good_chant = chant[:-1] != " "
 print(good_chant)
